@@ -40,35 +40,48 @@
         font-weight: 400;
         font-style: normal;
     }
+
+    .scrolling-wrapper {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px;
+      white-space: wrap;
+  }
+    
+    .card {
+      flex: 0 0 auto;
+      margin-right: 10px;
+      width: 200px;
+  }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light text-bg-primary fixed-top px-5">
-    <a class="navbar-brand text-white" href="#">Wilson</a>
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top px-5">
+    <a class="navbar-brand text-light" href="#">Wilson</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-target="home">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-target="home">
               About Me
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#section1">Who am I?</a></li>
-              <li><a class="dropdown-item" href="#section2">What do I DO?
-              </a></li>
+              <li><a class="dropdown-item" href="#section2">What do I DO?</a></li>
               <li><a class="dropdown-item" href="#section3">My Experience</a></li>
+              <li><a class="dropdown-item" href="#section4">My Clients</a></li>
             </ul>
           </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-target="video">Video Productions</a>
+          <a class="nav-link text-light" href="#" data-target="video">Video Productions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-target="se">Software Engineering</a>
+          <a class="nav-link text-light" href="#" data-target="se">Software Engineering</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" data-target="contact">Contact</a>
+          <a class="nav-link text-light" href="#" data-target="contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -89,7 +102,7 @@
         </div>
       </div>
           <!-- Content Section 1 -->
-          <div class="content-section bg-light"  id="section1">
+          <div class="content-section bg-white"  id="section1">
             <div class="container">
               <h1 class="display-1 text-center"><b>Who am I?</b></h1>
               <p>An experienced <strong>content creator</strong> with a decade of expertise in <strong>digital marketing</strong>, specializing in <strong>video production</strong> and <strong>post-production</strong>. </p>
@@ -100,7 +113,7 @@
           </div>
         
           <!-- Content Section 2 -->
-          <div class="content-section bg-light" id="section2">
+          <div class="content-section bg-white" id="section2">
             <div class="container">
               <div class="row">
                 <h1 class="display-1 text-center"><b>What I DO?</b></h1>
@@ -154,7 +167,7 @@
             </div>
           </div>
           <!-- Content Section 3 -->
-          <div class="content-section bg-light" id="section3">
+          <div class="content-section bg-white" id="section3">
             <div class="container">
               <h1 class="display-1 text-center"><b>My Experience</b></h1>
               <div class="accordion" id="accordionExample">
@@ -297,7 +310,85 @@
               </div>
             </div>
           </div>
-            
+        <!-- Content Section 4 -->
+        <div class="content-section bg-white"  id="section4">
+          <div class="container">
+            <h1 class="display-1 text-center"><b>Worked With</b></h1>
+            <div class="scrolling-wrapper">
+              <div class="card">
+                  <img src="./assets/aeon.png" class="card-img-top" alt="Aeon Credit">
+                  <div class="card-body">
+                      <h5 class="card-title">Aeon Credit</h5>
+                      <p class="card-text">Branded Animations</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/FutureNow.png" class="card-img-top" alt="FutureNow">
+                  <div class="card-body">
+                      <h5 class="card-title">FutureNow</h5>
+                      <p class="card-text">Bite-Size Video Productions and Training</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/cyberport.png" class="card-img-top" alt="Cyberport">
+                  <div class="card-body">
+                      <h5 class="card-title">Cyberport</h5>
+                      <p class="card-text">Bite-Size Video Productions</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/ecriture.png" class="card-img-top" alt="Ecriture">
+                  <div class="card-body">
+                      <h5 class="card-title">Ecriture Knives</h5>
+                      <p class="card-text">Kickstarter Page Design</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/genki.png" class="card-img-top" alt="Genki">
+                  <div class="card-body">
+                      <h5 class="card-title">Genki Instrument</h5>
+                      <p class="card-text">Social Media Material Design</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/hkstp.png" class="card-img-top" alt="HKSTP">
+                  <div class="card-body">
+                      <h5 class="card-title">HKSTP</h5>
+                      <p class="card-text">Animation Productions</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/circleDNA.png" class="card-img-top" alt="CircleDNA">
+                  <div class="card-body">
+                      <h5 class="card-title">CircleDNA</h5>
+                      <p class="card-text">Social Media Video Productions</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/Silentmode.png" class="card-img-top" alt="SilentMode">
+                  <div class="card-body">
+                      <h5 class="card-title">SilentMode</h5>
+                      <p class="card-text">Social Media Video Productions</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/robert-walters.png" class="card-img-top" alt="RW">
+                  <div class="card-body">
+                      <h5 class="card-title">Robert Walters</h5>
+                      <p class="card-text">Corporate Video Production</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="./assets/MS.jpg" class="card-img-top" alt="MoneySmart">
+                  <div class="card-body">
+                      <h5 class="card-title">MoneySmart</h5>
+                      <p class="card-text">Branding Video Productions</p>
+                  </div>
+              </div>
+              <!-- Add more client cards as needed -->
+          </div>
+          </div>
+        </div>
     </div>
     <div id="video" class="content" style="display: none;">
       <h1>Video Productions</h1>
