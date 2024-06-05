@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wilson's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -11,6 +14,10 @@
   <style>
     .content {
       padding-top: 80px;
+      font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .container {
@@ -29,6 +36,7 @@
     .content-section {
       padding: 60px 20px;
     }
+    
   </style>
 </head>
 <body>
@@ -143,7 +151,144 @@
           <div class="content-section bg-light" id="section3">
             <div class="container">
               <h1 class="display-1 text-center"><b>My Experience</b></h1>
-              <p>This is the third content section.</p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <strong>Software Engineering Bootcamp</strong>&nbsp; | Skills City | March-May 2024
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>A course which provides the building blocks and advance technical skills needed to work in Software Engineering. The program introduces various Software Engineering concepts and the opportunity to discover theory by exploring subjects online. The bootcamp also provides scope to practise and apply knowledge.</i>
+                      <ul>	
+                        <li>Gain an understanding of software fundamentals. </li>
+                        <li>Building Responsive Web Applications (HTML, CSS, REACT, API’s).</li>
+                        <li>Advance Python and Automation.</li>
+                        <li>UI/UX Design</li>
+                        <li>Microsoft Azure fundamentals and Backend.</li>
+                        <li>Creating a Portfolio(This Website).</li>
+                        <li>Practicing Agile Methodology when working in a team on a research project to produce a solution to a given business problem and presenting the results to the client.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <Strong>Video Creator and Trainer</Strong>&nbsp; | FutureNow (Hong Kong - Remote) | February 2020 -
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Online education platform, provide bite-size videos to subscribers, I was responsible to train talents and produce videos for the content provider, building up a versatile environment for learning.</i>
+                    <ul>
+                      <li>Demonstrating <strong>Professional Video Production Skills</strong> by Created engaging videos, leading to a 100% increase in user and content provider base.</li>
+                      <li>Leverage <strong>Communication Skill</strong> by Conducting training sessions for Futurists on effective content sharing, in collaboration with the <strong>Hong Kong Productivity Council</strong>.</li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <strong>Store Manager</strong>&nbsp; | Bar Bianco (Mancheseter) | April 2022 - January 2024
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Local coffee shop, besides on customer service, also responsible to create content on social media for the company.</i>
+                        <ul>
+                        <li>Generated engaging <strong>Social Media Content</strong> across Platforms, resulting in a 100% increase in business revenue and achieved a 20% increase in sales conversion from Google Maps engagements.</li>
+                        <li>Outstanding <strong>Team Management</strong> Skills with managing 2 cross-district stores with 6-10 associates, ensuring high-quality food production.</li>
+                        <li>Demonstrating <strong>IT Skills</strong> by Testing web application and EPOS system infrastructure with company developers.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <strong>Videographer</strong>&nbsp; | Ibby Aslam Official (Mancheseter) | November 2022 - January 2023
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Independent Influencer, providing daily contents and weekly Podcasts.</i>
+                        <ul>
+                        <li>Increased <strong>Client Engagement</strong> with personal development content, leading to a 30% increase in weekly listeners.</li>
+                        <li>Trendy <strong>Short Form Videos Production</strong> on across multiple platforms.</li>
+                        <li>Planning <strong>Budget Management</strong> within a budget of £1,000 for setting up professional interview environments.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <strong>Lead Video Creator</strong>&nbsp; | Gliitch.co (Hong Kong) | November 2020 - December 2021
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Digital Marketing Agency, provide performance campaign service to eCommerce clients, responsible to create day-to-day visual content for campaigns</i>
+                        <ul>
+                        <li>Utilise <strong>Digital Art Skills</strong> for creating profitable Facebook ad videos and designing successful Kickstarter pages.</li>
+                        <li>Demonstrated <strong>Project Management Skills</strong> when managed a large scale of User-Generated Content (UGC) and <strong>Created Engaging Content</strong> for different exposure purposes.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      <strong>Video Producer/ Editor</strong>&nbsp; | MoneySmart Group (Hong Kong) | April 2018 - November 2019
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Fintech, provide personal finance aggregate service to customers, responsible to create video content to audience.</i>
+                        <ul>
+                        <li>Eye-catching <strong>Social Media Content</strong> and <strong>Branding Campaigns</strong> planning, contributing to a 1300% organic growth on YouTube.</li>
+                        <li><strong>Analysed Video Engagement Rates</strong> to inform successful video directions.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      <strong>Video Producer</strong>&nbsp; | Hi-Shot (Hong Kong) | October 2017 - March 2018
+                    </button>
+                  </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Architectural Production House, provide video production service to government funded construction projects.</i>
+                        <ul>
+                        <li>Practice <strong>Production Management</strong> by managed and executed architectural shoots and documentaries, leading to a 20% boost in client satisfaction ratings.</li>
+                        <li>Implemented a <strong>Strategic Client Management</strong> system, resulting in a 30% reduction in client complaints.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                      <strong>Senior Multimedia Producer</strong>&nbsp; | PR Newswire Asia (Hong Kong) | April 2014 - September 2017
+                    </button>
+                  </h2>
+                  <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <i>Webcast Production Team, provide Live Webcast and hosting service to industry giants.</i>
+                        <ul>
+                        <li><strong>Marketing Strategy planning</strong> to achieved 100% YoY revenue growth and <strong>optimised digital advertising campaigns</strong>.</li>
+                        <li>Coordinated <strong>Real-time Live Webcasting Events</strong> for corporate conferences, ensuring seamless execution and high-quality broadcasting.</li>
+                        <li>Well-Recognised <strong>Team Management Skills</strong> when managed and supervised a team of 5 individuals, improving project efficiency and productivity.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
             
