@@ -15,6 +15,7 @@
   <style>
     .content {
         padding-top: 56px;
+        padding-bottom: 60px;
         font-family: "Quicksand", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -24,6 +25,7 @@
     .container {
         padding: 0px;
         margin: 0px;
+        justify-content: center;
     }
 
     .content-section {
@@ -42,13 +44,22 @@
       overflow-x: auto;
       padding: 10px;
       white-space: wrap;
-  }
+    }
     
     .card {
       flex: 0 0 auto;
       margin-right: 10px;
       width: 200px;
-  }
+    }
+    .contact-form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form h2 {
+        margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
@@ -395,8 +406,34 @@
       <p>content goes here.</p>
     </div>
     <div id="contact" class="content" style="display: none;">
-      <h1>Contact</h1>
-      <p>Contact us content goes here.</p>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="contact-form">
+                    <h2>Contact Me</h2>
+                    <form action="https://formspree.io/f/mvoejlvb" method="POST">
+                      <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" name="_replyto" placeholder="Enter your email" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="subject">Subject</label>
+                          <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   </div>
 
