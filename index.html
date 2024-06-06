@@ -46,6 +46,11 @@
       margin-right: 10px;
       width: 200px;
     }
+    .card-portfo {
+      flex: 0 0 auto;
+      margin: 10px;
+      width: 100%;
+    }
     .contact-form {
       background-color: #fff;
       padding: 30px;
@@ -93,8 +98,16 @@
               <li><a class="dropdown-item" href="#section4">My Clients</a></li>
             </ul>
           </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#" data-target="video">Video Productions</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link  dropdown-toggle text-light" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false" data-target="video">
+            Digital Productions
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#video-production">Video Production</a></li>
+            <li><a class="dropdown-item" href="#animation">Animation</a></li>
+            <li><a class="dropdown-item" href="#design">Graphic Design</a></li>
+            <li><a class="dropdown-item" href="#photography">Professional Photography</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#" data-target="se">Software Engineering</a>
@@ -410,24 +423,24 @@
         </div>
     </div>
     <div id="video" class="content" style="display: none;">
-      <div id="works" class="content-section bg-light">
+      <div id="video-production" class="content-section bg-light">
         <div class="container">
           <h1 class="display-1 text-center"><b>Video Productions</b></h1>
-          <div class="row">
+          <div class="row justify-content-center">
             <!-- Example Card 1 -->
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-portfo">
                 <img src="./assets/video-thumbnail/Bite-Size.png" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                   <h5 class="card-title">Bite-Size Video Production</h5>
-                  <p class="card-text">FutureNow, a Cyperport Project, we created engaging and informative 3-minute educational videos for this online platform.</p>
+                  <p class="card-text">Engaging and informative 3-minute educational videos for this online platform.</p>
                   <a href="https://www.behance.net/gallery/193226407/Bite-Size-Training-Video-Production-FutureNow" class="btn btn-primary" target="_blank">View Project</a>
                 </div>
               </div>
             </div>
             <!-- Example Card 2 -->
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-portfo">
                 <img src="./assets/video-thumbnail/Branding-video.png" class="card-img-top" alt="Project 2">
                 <div class="card-body">
                   <h5 class="card-title">Branding Video Project</h5>
@@ -438,7 +451,7 @@
             </div>
             <!-- Example Card 3 -->
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-portfo">
                 <img src="./assets/video-thumbnail/Corporate-Video.png" class="card-img-top" alt="Project 3">
                 <div class="card-body">
                   <h5 class="card-title">Corporate Video Production</h5>
@@ -448,7 +461,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-portfo">
                 <img src="./assets/video-thumbnail/Documentary.png" class="card-img-top" alt="Project 3">
                 <div class="card-body">
                   <h5 class="card-title">Documentary Filming</h5>
@@ -458,7 +471,190 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/MS-Corporate.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Corporate Video on Topics</h5>
+                  <p class="card-text">Devised a strategic plan to create a series of 101 videos on Mortgages.</p>
+                  <a href="https://www.behance.net/gallery/141426269/Interview-Shooting-MoneySmart-HK-%28Mortgage%29" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+          </div>
+        </div>
+      </div>
+      <div id="animation" class="content-section bg-light">
+        <div class="container">
+          <h1 class="display-1 text-center"><b>Animation</b></h1>
+          <div class="row justify-content-center">
+            <!-- Example Card 1 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Bite-Size.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                  <h5 class="card-title">Bite-Size Video Production</h5>
+                  <p class="card-text">Engaging and informative 3-minute educational videos for this online platform.</p>
+                  <a href="https://www.behance.net/gallery/193226407/Bite-Size-Training-Video-Production-FutureNow" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Example Card 2 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Branding-video.png" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                  <h5 class="card-title">Branding Video Project</h5>
+                  <p class="card-text">A creation of three impactful branding campaign videos at MoneySmart Group.</p>
+                  <a href="https://www.behance.net/gallery/141400621/Branding-Project-MoneySmart-HK" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Example Card 3 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Corporate-Video.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Corporate Video Production</h5>
+                  <p class="card-text">Partnered with Headhunter Robert Walters to produce an internal corporate video.</p>
+                  <a href="https://www.behance.net/gallery/141400999/Corporate-Video-Project-Robert-Walters" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Documentary.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Documentary Filming</h5>
+                  <p class="card-text">Embarked on a documentary project aimed at shedding light on societal issues.</p>
+                  <a href="https://www.behance.net/gallery/141401279/Documentary-Production-MoneySmart-HK" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/MS-Corporate.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Corporate Video on Topics</h5>
+                  <p class="card-text">Devised a strategic plan to create a series of 101 videos on Mortgages.</p>
+                  <a href="https://www.behance.net/gallery/141426269/Interview-Shooting-MoneySmart-HK-%28Mortgage%29" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+          </div>
+        </div>
+      </div>
+      <div id="design" class="content-section bg-light">
+        <div class="container">
+          <h1 class="display-1 text-center"><b>Graphic Design</b></h1>
+          <div class="row justify-content-center">
+            <!-- Example Card 1 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Bite-Size.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                  <h5 class="card-title">Bite-Size Video Production</h5>
+                  <p class="card-text">Engaging and informative 3-minute educational videos for this online platform.</p>
+                  <a href="https://www.behance.net/gallery/193226407/Bite-Size-Training-Video-Production-FutureNow" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Example Card 2 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Branding-video.png" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                  <h5 class="card-title">Branding Video Project</h5>
+                  <p class="card-text">A creation of three impactful branding campaign videos at MoneySmart Group.</p>
+                  <a href="https://www.behance.net/gallery/141400621/Branding-Project-MoneySmart-HK" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Example Card 3 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Corporate-Video.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Corporate Video Production</h5>
+                  <p class="card-text">Partnered with Headhunter Robert Walters to produce an internal corporate video.</p>
+                  <a href="https://www.behance.net/gallery/141400999/Corporate-Video-Project-Robert-Walters" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Documentary.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Documentary Filming</h5>
+                  <p class="card-text">Embarked on a documentary project aimed at shedding light on societal issues.</p>
+                  <a href="https://www.behance.net/gallery/141401279/Documentary-Production-MoneySmart-HK" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/MS-Corporate.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Corporate Video on Topics</h5>
+                  <p class="card-text">Devised a strategic plan to create a series of 101 videos on Mortgages.</p>
+                  <a href="https://www.behance.net/gallery/141426269/Interview-Shooting-MoneySmart-HK-%28Mortgage%29" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+          </div>
+        </div>
+      </div>
+      <div id="photography" class="content-section bg-light">
+        <div class="container">
+          <h1 class="display-1 text-center"><b>Professional Photography</b></h1>
+          <div class="row justify-content-center">
+            <!-- Example Card 1 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Bite-Size.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                  <h5 class="card-title">Bite-Size Video Production</h5>
+                  <p class="card-text">Engaging and informative 3-minute educational videos for this online platform.</p>
+                  <a href="https://www.behance.net/gallery/193226407/Bite-Size-Training-Video-Production-FutureNow" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Example Card 2 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Branding-video.png" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                  <h5 class="card-title">Branding Video Project</h5>
+                  <p class="card-text">A creation of three impactful branding campaign videos at MoneySmart Group.</p>
+                  <a href="https://www.behance.net/gallery/141400621/Branding-Project-MoneySmart-HK" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <!-- Example Card 3 -->
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Corporate-Video.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Corporate Video Production</h5>
+                  <p class="card-text">Partnered with Headhunter Robert Walters to produce an internal corporate video.</p>
+                  <a href="https://www.behance.net/gallery/141400999/Corporate-Video-Project-Robert-Walters" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-portfo">
+                <img src="./assets/video-thumbnail/Documentary.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Documentary Filming</h5>
+                  <p class="card-text">Embarked on a documentary project aimed at shedding light on societal issues.</p>
+                  <a href="https://www.behance.net/gallery/141401279/Documentary-Production-MoneySmart-HK" class="btn btn-primary" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-portfo">
                 <img src="./assets/video-thumbnail/MS-Corporate.png" class="card-img-top" alt="Project 3">
                 <div class="card-body">
                   <h5 class="card-title">Corporate Video on Topics</h5>
