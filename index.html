@@ -60,6 +60,20 @@
     .contact-form h2 {
         margin-bottom: 20px;
     }
+    /* Parallax Section */
+    .parallax {
+      background-image: url('./assets/parallax.JPG'); /* Replace with your image */
+      min-height: 400px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax-content {
+      color: white;
+      text-align:left;
+      padding: 100px 60px;
+    }
     footer {
       background-color: #232323;
       padding:20px 0;
@@ -126,17 +140,10 @@
   </nav>
   <div>
     <div id="home" class="content">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/hero/SE-hero.png" class="d-block w-100" alt="UI/UX Design">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/hero/video-hero.png" class="d-block w-100" alt="Video Production">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/hero/graphic-hero.png" class="d-block w-100" alt="Graphic Design">
-          </div>
+      <div class="parallax">
+        <div class="parallax-content">
+          <h1 class="display-1"><b>Keep Scrolling</b></h1>
+          <p class="lead">To know me more</p>
         </div>
       </div>
           <!-- Content Section 1 -->
