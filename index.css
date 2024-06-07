@@ -15,6 +15,10 @@
     padding: 60px 5%;
 }
 
+.typewrite {
+  color: #20c20e
+}
+
 .navbar {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
