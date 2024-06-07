@@ -1,0 +1,86 @@
+.content {
+    padding-top: 56px;
+    padding-bottom: 60px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+    font-style: bold;
+}
+.content-section {
+    padding: 60px 5%;
+}
+
+.navbar {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  white-space: wrap;
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  width: 200px;
+}
+.card-portfo {
+  flex: 0 0 auto;
+  margin: 10px;
+  width: 100%;
+}
+.contact-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+/* Parallax Section */
+.parallax {
+  background-image: url('./assets/parallax.JPG'); /* Replace with your image */
+  width: 100%;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-content {
+  color: white;
+  text-shadow: 3px 3px 10px #000000;
+  text-align:center;
+  padding: 100px 60px;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer {
+  background-color: #232323;
+  padding:20px 0;
+  text-align: center;
+}
+footer a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer p {
+  color: #ffffff;
+}
+footer a:hover {
+  text-decoration: underline;
+}
