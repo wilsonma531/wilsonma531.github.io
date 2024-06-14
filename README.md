@@ -4,7 +4,7 @@
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>Interactive Web Application Development</b>
-  - [Room Booking and Equipment Management Tools](https://github.com/wilsonma531/NaiMuri_T1)
+  - [Room Booking and Equipment Management Tools](https://github.com/wilsonma531/BookMySpace)
 
 <h2>📺 Digital Production Projects</h2>
 
