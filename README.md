@@ -1,4 +1,3 @@
-@ -1,41 +0,0 @@
 <h1>Hi, I'm Wilson! <br/><a href="https://github.com/wilsonma531">Programmer</a>, <a href="https://www.linkedin.com/in/wilson-msw/">Software Engineering Professional</a>, <a href="https://www.behance.net/wilsonma4">Videographer</a></h1>
 
 <h2>👨‍💻 Software Development Projects:</h2>
